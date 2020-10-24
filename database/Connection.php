@@ -6,7 +6,7 @@ class connection{
 	protected $transaction;
 
 	//connect to DB use the default constructor
-	public function __construct($username="3627487_bdroma", $password="roma.9196", $host="fdb27.runhosting.com", $dbname="3627487_bdroma", $options = []){
+	public function __construct($username="id15217357_sisinventario", $password="RogelioMagdali.9196", $host="localhost", $dbname="id15217357_websisroma", $options = []){
 		
 		$this->isConn = TRUE;
 		try{
